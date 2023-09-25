@@ -1,0 +1,16 @@
+.navbar {
+  background-color: var(--darkblue);
+  padding: 20px 0;
+}
+
+.shopping-cart {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: bold;
+}
+
+

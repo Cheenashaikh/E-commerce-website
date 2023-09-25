@@ -1,0 +1,25 @@
+form {
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 100px auto;
+  padding: 50px;
+  width: calc(50%);
+}
+input{
+    width: calc(100%);
+    border: none;
+    border-bottom: 1px solid var(--darkblue);
+    outline: none;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+form button{
+    width: calc(100%);
+}
+
+@media screen and (max-width: 1023px) {
+    form{
+        width: calc(100%);
+    }    
+}
